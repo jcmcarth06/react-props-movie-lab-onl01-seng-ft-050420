@@ -31,4 +31,4 @@ export default class CardBack extends Component {
       </div>
     )
   }
-}
+};
