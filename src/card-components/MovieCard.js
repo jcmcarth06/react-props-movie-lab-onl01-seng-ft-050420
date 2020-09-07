@@ -33,9 +33,9 @@ export default class MovieCard extends Component {
     console.log(this.props);
     return (
       <div className="movie-card">
-        <CardFront poster={posterMap[this.props.poster]}/>
-        <CardBack title={this.props.title} genres={this.props.genres} IMDBRating={this.props.IMDBRating}/>
-      </div>
+        <CardFront poster={posterMap[this.props.poster]}/> // this receives the poster prop
+        <CardBack title={this.props.title} genres={this.props.genres} IMDBRating={this.props.IMDBRating}/> // this receives the other props for the back
+      </div> // MovieCard is a container for all of the information for the mobie-- it renders a div element with a css class, but otherwise just houses the components
     )
   }
 };
