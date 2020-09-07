@@ -12,7 +12,7 @@ export default class CardBack extends Component {
 
   generateRatingElement = () => {
     let IMDBRating = this.props.IMDBRating
-    if IMDBRating === null {
+    if (rating === null) {
       return <h4>{'No Rating Found'}</h4>
     }
     else {
