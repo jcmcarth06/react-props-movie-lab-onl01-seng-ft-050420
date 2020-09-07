@@ -38,7 +38,7 @@ export default class MovieCard extends Component {
       </div>
     )
   }
-}
+};
 
 MovieCard.defaultProps = {
   poster: "default",
